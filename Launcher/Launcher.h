@@ -46,7 +46,22 @@ private:
 
 
 public:
+
+	ConnectUtilBase():
+
+	bool ConncectServer()
+	{
+		;
+	}
 protected:
 };
 
 
+class GameInstance
+{
+private:
+	ConnectUtilBase ConncectUtil;
+
+public:
+protected:
+};
